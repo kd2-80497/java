@@ -46,7 +46,7 @@ public class DailyDrivingCost {
 		
 		
 		float totalCost=((milesDriven/avgMiles)*costPerGallon)+parkingFees+toll;
-		System.err.println("TOTAL COST PER DAY OF DRIVING TO WORK IS "+totalCost);
+		System.out.println("TOTAL COST PER DAY OF DRIVING TO WORK IS "+totalCost);
 				
 		
 	}
