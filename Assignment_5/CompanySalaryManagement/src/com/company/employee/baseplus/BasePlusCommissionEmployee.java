@@ -9,13 +9,13 @@ public class BasePlusCommissionEmployee extends CommissionEmployee {
 	
 	public BasePlusCommissionEmployee() {
 		this("","",0,0);
-		baseSalary=10000;
+		baseSalary=10000+0.1*10000;
 	}
 	
 
 	public BasePlusCommissionEmployee(String fName, String lName, int ssn, int grossSales) {
 		super(fName, lName, ssn, grossSales);
-		baseSalary=10000;
+		baseSalary=10000+0.1*10000;;
 		
 	}
 	
