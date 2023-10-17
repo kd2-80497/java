@@ -3,16 +3,12 @@ import java.util.Scanner;
 public class WordCount {
 
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
-		String string;
-		System.out.println("ENTER STRING = ");
-		string=sc.next();
-		
-		int count=string.length();
-		System.out.println("WORD COUNT OF STRING IS ="+count);
-		
-		
 
-	}
-
-}
+			
+//			System.out.print("Enter String = ");
+//			String string = new Scanner(System.in).next();
+			String string ="Hi this is ojaswi wankhede";
+			String arr[]=string.split(" ");
+			System.out.println("Number of Words in String are "+arr.length);
+		}
+		}

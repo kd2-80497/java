@@ -19,7 +19,7 @@ public class Question2 {
      else {
     	 System.out.println("ENTERED NUMBER SHOULD BE DOUBLE oNLY");
      }
-    sys
+    
      num2=sc.nextDouble();
      
          if(sc.hasNextDouble()) {
