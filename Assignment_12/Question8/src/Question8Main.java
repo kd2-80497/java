@@ -1,5 +1,9 @@
+import java.util.List;
 import java.util.OptionalDouble;
+import java.util.Random;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class Question8Main {
 
@@ -20,6 +24,4 @@ public class Question8Main {
 		//IntStream str4=(IntStream) str1.summaryStatistics();
 //		System.out.println("total avg = "+avg);
 		//str4.forEach(ele->System.out.println(ele));
-	}
-
-}
+}}
